@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  test-drive:
+    runs-on: ubuntu-latest
+    name: test js actions dependency updater
+    steps:
+      - name: checkout source
+        uses: actions/checkout@v2
+      - name: run js actions dependency updater
+        uses: ./
+        with:
+          git-email: 'tianhaoz@umich.edu'
+          git-name: 'Tianhao Zhou'
+          log: 'info'
