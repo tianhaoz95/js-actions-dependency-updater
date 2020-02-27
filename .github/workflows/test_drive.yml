@@ -12,4 +12,5 @@ jobs:
         with:
           git-email: 'tianhaoz@umich.edu'
           git-name: 'Tianhao Zhou'
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
           log: 'info'
