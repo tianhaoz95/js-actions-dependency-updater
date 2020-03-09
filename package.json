@@ -4,7 +4,7 @@
   "description": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/tianhaoz95/js-actions-dependency-updater)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node index.js",
     "fix": "prettier --write index.js lib/*.js",
     "lint": "prettier --check index.js lib/*.js"
   },
